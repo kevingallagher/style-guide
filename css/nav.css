@@ -1,0 +1,91 @@
+/*-------------cssreset--------------*/
+
+*{
+padding:0;
+margin: 0;
+font-family:100%;
+line-height:1em;
+}
+
+
+
+body { font-family: 'Libre Baskerville', serif, Georgia, Times,'Times New Roman'; 
+    color: #666666; } 
+   
+
+body{background:rgba(244, 243, 215, 100)  ;
+     ;
+    width: 100%;
+height: auto}
+
+
+                  
+article {  width: 100%; 
+    
+    margin: 8em auto;
+ background-color:rgba(244, 243, 215, 100); 
+    padding: 0 2em 2em 2em;
+border: 0px solid #000000;
+   ;
+} 
+
+
+
+
+
+
+
+
+/*--------------links-----------------*/
+a {
+    color: rgb(89, 89, 89);
+    text-shadow: 0.7;
+    font-size: 2em;
+    text-decoration: none;
+    text-transform: none;
+    letter-spacing: 1px;
+    opacity: 0.8;
+ }
+a:hover { color: rgb(154, 154, 154);
+border-bottom: none;
+    
+    -webkit-transition: all .5s ease-in-out;
+  -moz-transition: all .5s ease-in-out;
+  -o-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+    ;
+}      
+
+/*--------------nav-----------------*/
+nav {width: 100%;
+	float: left;
+	margin:0em; 
+	border-top: 0px solid #666666;
+    border-bottom: 0px solid #666666;
+ position: left; 
+    top: 0;
+    left:0;
+  
+  
+}
+
+nav ul{ font-family: 'signpainter', sans-serif;
+    list-style-type: none;
+    font-size: 1.5em;
+             text-align: left;
+             text-transform: none;
+             letter-spacing: 1px;
+       opacity: 1}
+
+.About-me { background-color: rgb(196,255,243)  ;
+;
+	
+}
+.Blog { background-color: rgb(181,185,249);
+}
+.Portfolio { background-color: rgb(255,196,196);
+}
+.Where-i-am { background-color: rgb(249,255,196);
+}
+.e-mail { background-color: rgb(198,255,196);
+}
