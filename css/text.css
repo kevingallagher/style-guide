@@ -1,0 +1,91 @@
+
+/*-------------cssreset--------------*/
+
+*{
+padding:0;
+margin: 0;
+font-family:100%;
+line-height:1em;
+}
+
+
+body { font-family: 'Lantinghei SC', serif, Georgia, Times,'Times New Roman'; 
+    color: #666666; } 
+   
+
+body{ background: url(../image/Untitled-2.gif) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	background-color: rgba(244, 243, 215, 100);}
+
+article {  
+	padding: 2em;
+    width: 75%; 
+    max-width: 760px;
+    margin: 20px auto;
+	background-color: rgba(255,255,255,0.5)
+} 
+/*----------text---------------*/
+
+article{width:75%;
+display: block;}
+
+
+
+
+h1{font-family: 'signpainter', sans-serif;
+    color: black;
+    
+    padding: ;
+    margin:;
+ font-size:3em;
+line-height: 1.5em}
+
+
+p{font-family: Lantinghei SC;
+    color: black;
+    
+    padding: 2em,1em,2em,1em;
+    margin: 1.5em;
+ font-size:1.2em;
+line-height: 1.5em;
+
+
+}
+
+          
+hr{color: rgba(196,255,243,100)}    
+
+ 
+
+blockquote  { font-family:'signpainter'; 
+    display: block;
+    border:4px ;
+    padding: 1em ;
+    font-size: 2.5em;
+    line-height:1.25em;
+    background-color: rgb(255,196,196);
+    
+ 
+      }
+        
+
+blockquote cite { font-family:'Lantinghei SC';
+    font-size: .45em;
+	display: block;
+    
+}
+
+.social { display: inline;
+       }
+
+.social:hover{opacity: 0.5; 
+    cursor: pointer;
+  -webkit-transition: all .5s ease-out;
+  -moz-transition: all .5s ease-out;
+  -o-transition: all .5s ease-out;
+	transition: all .5s ease-out;
+}
+ 
