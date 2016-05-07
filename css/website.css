@@ -27,6 +27,7 @@ article {  width: 100%;
     padding: 2em 14em 2em 14em;
 border: 0px solid #000000;*/
    ;
+	margin-top: 53em;
 } 
 
 
@@ -119,32 +120,13 @@ opacity: 1}
 .n-ireland{width: 60%;
 margin: 0 auto;}
 
-#base {
-  background: red;
-  display: inline-block;
-  height: 5.5px;
-  margin-left: -12.8em;
-  margin-top:;
-    position: relative;
-    width: 10px;
-	z-index: 0;
-}
-#base:before {
-  border-bottom: 3.5px solid red;
-  border-left: 5px solid transparent;
-  border-right: 5px solid transparent;
-  content: "";
-  height: 0;
-  left: 0;
-  position: absolute;
-  top: -3.5px;
-  width: ;
+
 }
 /*-----------------colours-----------*/
 
 article{width:100%;
 display: block;
-margin-top: 51em;
+margin-top: 53em;
 }
 .me{ 
 	background-color: rgb(196,255,243); 
@@ -180,7 +162,7 @@ line-height: 1.5em}
 
 
 p{font-family: Lantinghei SC;
-    color: black;
+    color: back;
     
     padding: 2em,1em,2em,1em;
     margin: 1.5em 1.5em 1.5em -0.1em;
