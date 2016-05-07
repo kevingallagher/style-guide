@@ -116,13 +116,35 @@ width: auto;}
 -moz-transition: all .2s ease-in-out;      
 -o-transition: all .2s ease-in-out;
 opacity: 1}
+.n-ireland{width: 60%;
+margin: 0 auto;}
 
-
+#base {
+  background: red;
+  display: inline-block;
+  height: 5.5px;
+  margin-left: -12.8em;
+  margin-top:;
+    position: relative;
+    width: 10px;
+	z-index: 0;
+}
+#base:before {
+  border-bottom: 3.5px solid red;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  content: "";
+  height: 0;
+  left: 0;
+  position: absolute;
+  top: -3.5px;
+  width: ;
+}
 /*-----------------colours-----------*/
 
 article{width:100%;
 display: block;
-margin-top: 60em;
+margin-top: 51em;
 }
 .me{ 
 	background-color: rgb(196,255,243); 
@@ -184,7 +206,7 @@ width: 80%}
 blockquote p { font-family:'signpainter'; 
   position: absolute;
 	right:0em;
-	top: 23.1em;
+	top: 21.1em;
     border:4px ;
     padding: 1.4em ;
     font-size: 3em;
@@ -298,13 +320,13 @@ background-color:rgb(255,196,196) }
 
 @media (min-width: 0) and (max-width: 768px) {
 	.container {
-		padding: 0 1.225em 2.5em;
+		padding: 0 1.225em .5em;
 	}
 	
 }
 @media (min-width: 769px) {
 	.container {
-		padding: 0 2.25em 4em;
+		padding:  2.25em 4em;
 	}
 	.photo-container {
 		width: 48%;
@@ -337,7 +359,7 @@ background-color:rgb(255,196,196) }
 article {
     width: 100%;
     padding: 0em;
-	margin
+	margin-top:36em;
     } 
 	
 	body{width:100%;
@@ -376,17 +398,37 @@ article {
         
     }
     
+	 
 article {
     width: 100%;
     padding: 0em;
-	margin
+	margin-top:32em;
     } 
 	
 	nav{top:-11em;}
 	
-	nav ul li{font-size: 0.7em;
+	nav ul li{font-size: 0.6em;
 	padding: .6em 0 .6em 0;
 	}
+	.About-me { 
+	padding-left:9em
+	
+;
+	
+}
+.Blog { background-color: rgb(181,185,249);
+	padding-left:16.4em;
+}
+.Portfolio { background-color: rgb(255,196,196);
+	padding-left:11em;
+}
+.Where-i-am { background-color: rgb(249,255,196);
+	padding-left:10.5em;
+}
+.e-mail { background-color: rgb(198,255,196);
+	padding-left:16em;
+}
+	
 	.portrait{width:200px;
 	margin-left:-100px;
 	margin-top:-250px}
@@ -394,7 +436,7 @@ article {
 	body{width:100%;
 	padding: 0em;
 	margin: 0;}
-	.me{margin-top: 20em}
+	
 	
 	h1{font-size:3em;
 	margin:0;
@@ -408,7 +450,7 @@ article {
 	h1, p {margin-left: -70px;
 	width: 170%}
 	
-	h3{font-size: 1em}
+	h3{font-size: 2em}
 	
 	.me blockquote p {float:none;
 	position: relative;
@@ -416,6 +458,22 @@ article {
 	top: 0.6em;
 	font-size:2em;
 	text-align: center}
+	
+	.me hr{width: 160%;
+	margin-left: -60px;
+	padding-bottom: 1.5em}
+	
+	.container {width:180%;
+		padding: 0 2em;
+		margin-left: -60px;
+	
+	}
+	.container h1, .container hr{margin-left: -40px}
+	.container hr{width: 100%
+	}
+	.photo-container{ width: 100%;
+	margin-left: -40px}
+}
 
 
 
