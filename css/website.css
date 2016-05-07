@@ -1,0 +1,481 @@
+/*-------------cssreset--------------*/
+
+*{
+padding:0;
+margin: 0;
+font-family:100%;
+line-height:1em;
+	box-sizing: border-box;
+}
+
+
+body { font-family: 'Libre Baskerville', serif, Georgia, Times,'Times New Roman'; 
+    color: #666666; } 
+   
+
+body{background:rgba(244, 243,215,100)  ;
+     ;
+    width: 100%;
+height: auto;
+overflow-x: hidden;}
+
+
+                  
+article {  width: 100%;
+    margin: 0 auto;
+ background-color: /*rgb(196,255,243); 
+    padding: 2em 14em 2em 14em;
+border: 0px solid #000000;*/
+   ;
+} 
+
+
+
+
+
+/*--------------links-----------------*/
+a {
+    color: rgb(89, 89, 89);
+    text-shadow: 0.7;
+    font-size: 2em;
+    text-decoration: none;
+    text-transform: none;
+    letter-spacing: 1px;
+    opacity: 0.8;
+ }
+a:hover { color: rgb(154, 154, 154);
+border-bottom: none;
+    
+    -webkit-transition: all .5s ease-in-out;
+  -moz-transition: all .5s ease-in-out;
+  -o-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+    ;
+}      
+
+/*--------------nav-----------------*/
+nav {width: 200%;
+	float: left;
+	margin:0em; 
+	border-top: 0px solid #666666;
+    border-bottom: 0px solid #666666;
+ position: absolute; 
+    top: 10em;
+    left:0;
+    -webkit-transform: rotate(25deg);
+  -moz-transform: rotate(25deg);
+  -ms-transform: rotate(25deg);
+  -o-transform: rotate(25deg);
+  transform: rotate(25deg);
+	margin-left: -11.5em;
+	margin-top: 20em;
+  
+}
+
+nav ul{ font-family: 'signpainter', sans-serif;
+    list-style-type: none;
+    font-size: 1.5em;
+             text-align: left;
+             text-transform: none;
+             letter-spacing: 1px;
+	opacity: 1;}
+
+
+.About-me { background-color: rgb(196,255,243)  ;
+	padding-left:6em
+	
+;
+	
+}
+.Blog { background-color: rgb(181,185,249);
+	padding-left:9.8em;
+}
+.Portfolio { background-color: rgb(255,196,196);
+	padding-left:8em;
+}
+.Where-i-am { background-color: rgb(249,255,196);
+	padding-left:7em;
+}
+.e-mail { background-color: rgb(198,255,196);
+	padding-left:10.3em;
+}
+
+/*---------------img----------------------------*/
+.portrait{ position: absolute;
+top:0;
+	z-index: 100;/* this brings image infront of nav*/
+  top: 50%;
+  left: 50%;
+  margin-top: -340px;
+	margin-left: -160px;
+width: auto;}
+
+.portrait:hover{transform: scale(1.02);
+	transition: all .2s ease-in-out;
+    -webkit-transform: scale 1.05 ;   
+-moz-transition: all .2s ease-in-out;      
+-o-transition: all .2s ease-in-out;
+opacity: 1}
+.n-ireland{width: 60%;
+margin: 0 auto;}
+
+#base {
+  background: red;
+  display: inline-block;
+  height: 5.5px;
+  margin-left: -12.8em;
+  margin-top:;
+    position: relative;
+    width: 10px;
+	z-index: 0;
+}
+#base:before {
+  border-bottom: 3.5px solid red;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  content: "";
+  height: 0;
+  left: 0;
+  position: absolute;
+  top: -3.5px;
+  width: ;
+}
+/*-----------------colours-----------*/
+
+article{width:100%;
+display: block;
+margin-top: 51em;
+}
+.me{ 
+	background-color: rgb(196,255,243); 
+	 padding: 2em 7em 2em 7em;
+	width: 100%;
+	margin: 0 auto ;
+border: 0px solid #000000;}
+
+.gallerybackground {
+	background-color: rgb(255,196,196); 
+	padding: 2em 7em 2em 7em;
+		width: 100%;
+	margin-left:auto;
+	margin-right: auto;
+	
+border: 0px solid #000000;}
+
+.location{
+	background-color: rgb(249,255,196); 
+	padding: 2em 7em 2em 7em;
+	width: 100%;
+	margin;
+border: 0px solid #000000;
+padding:}
+/*-----------------text-----------*/
+
+
+h1{
+	font-family: 'signpainter', sans-serif;
+    color: black;
+ font-size:4em;
+line-height: 1.5em}
+
+
+p{font-family: Lantinghei SC;
+    color: black;
+    
+    padding: 2em,1em,2em,1em;
+    margin: 1.5em 1.5em 1.5em -0.1em;
+ font-size:1.5em;
+line-height: 1.5em;
+	width: 55%;
+	: 
+	padding:2em;
+position: static;
+	left: auto;
+}
+
+          
+hr{
+	color: rgb(181,185,249);
+border-bottom: none;
+border-left: none;
+	border-right: none;
+width: 100%}    
+
+ 
+
+blockquote p { font-family:'signpainter'; 
+  position: absolute;
+	right:0em;
+	top: 21.1em;
+    border:4px ;
+    padding: 1.4em ;
+    font-size: 3em;
+    line-height:1.25em;
+    background-color: rgb(249,255,196);
+    hanging-punctuation: first;
+            text-indent: -0.5em;
+	
+	text-shadow: 15;
+	
+	
+		width: 30%;
+	
+      }
+        
+.quote-right{font-size: 6em;
+position: absolute;
+top:0.5em;
+	right:-0.01em;
+}
+.quote-left{font-size: 6em;
+position: absolute;
+top:-0.1em;
+left:-0.1em}
+blockquote cite { font-family:'Lantinghei SC';
+    font-size: .45em;
+	
+	float: right;
+    
+}
+
+.social { display: inline;
+       }
+
+.social:hover{opacity: 0.5; 
+    cursor: pointer;
+  -webkit-transition: all .5s ease-out;
+  -moz-transition: all .5s ease-out;
+  -o-transition: all .5s ease-out;
+	transition: all .5s ease-out;
+}
+  /*------------GALLERY-----------*/
+h3 {font-family:  Lantinghei SC;
+	font-size: 2em;
+	line-height: 1.25em;
+	margin-top: .85em;
+	margin-bottom: .5em;
+	color: rgb(255,196,196);
+	padding: .5em;
+	text-align: center;
+}
+.main-header {
+	text-align: center;
+	padding: 2.8em 0;
+}
+.container {
+	width: 94.02985075%;
+	max-width: 1260px;
+	margin: auto;}
+
+.photo-container{margin-top: 2em;
+background-color:rgb(255,196,196) }
+.photo {
+	position: relative;
+	line-height: 0;
+	margin-bottom: 2em;
+	overflow:hidden;
+}
+.photo-container img {
+ 	width: 100%;
+}
+
+
+/* ---- Photo Overlay ---- */
+.photo-overlay {
+	color: #fff;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0; 
+	left: 0;
+	padding-left: 20px;
+	padding-right: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background: rgba(0,0,0, .65);
+	
+}
+
+/* ---- Float clearfix ---- */
+
+.clearfix::after {
+	content: " ";
+	display: table;
+	clear: both;}
+/*----Overlay Transitions---- */
+
+.photo-overlay {opacity: 0;
+	transition-property: opacity;
+		transition-duration:0.5s;
+}
+.photo-overlay:hover {
+	opacity:1;}
+}
+
+
+     /*gallery media queries*/
+
+
+@media (min-width: 0) and (max-width: 768px) {
+	.container {
+		padding: 0 1.225em .5em;
+	}
+	
+}
+@media (min-width: 769px) {
+	.container {
+		padding:  2.25em 4em;
+	}
+	.photo-container {
+		width: 48%;
+		float: left;
+		margin-left: 4%;
+	}
+}
+@media (min-width: 769px) and (max-width: 1024px) { 
+	.photo-container:nth-child(2n+1) {
+		margin-left: 0;
+		clear: left;
+	}
+}
+@media (min-width: 1025px) { 
+	.photo-container {
+		width: 30.63973064%;
+	}
+	.photo-container:nth-child(3n+3) {
+		margin-left: 0;
+		clear: left;
+	}
+}
+
+@media (max-width: 50em) {
+    
+    body {
+        
+    }
+    
+article {
+    width: 100%;
+    padding: 0em;
+	margin-top:36em;
+    } 
+	
+	body{width:100%;
+	padding: 0em;
+	margin: 0;}
+	nav{top:-5em;}
+	.portrait{ width: 250px;
+	 top:17em}
+	
+	h1{font-size:3.5em;
+	margin:0;
+	padding:0;}
+	
+	p{font-size: 1em;
+	width: 100%;
+	margin:0;
+	padding:1.5em 2em 1,5em 2em;}
+	
+	h1, p {margin-left: -8
+		70px;
+	width: 100%}
+	
+	h3{font-size: 1.7em}
+	
+	.me blockquote p {float:none;
+	position: relative;
+	width:100%;
+	top: 0.6em;
+	font-size:2em;
+	text-align: center}
+
+
+@media (max-width: 30em) {
+    
+    body {
+        
+    }
+    
+	 
+article {
+    width: 100%;
+    padding: 0em;
+	margin-top:32em;
+    } 
+	
+	nav{top:-11em;}
+	
+	nav ul li{font-size: 0.6em;
+	padding: .6em 0 .6em 0;
+	}
+	.About-me { 
+	padding-left:9em
+	
+;
+	
+}
+.Blog { background-color: rgb(181,185,249);
+	padding-left:16.4em;
+}
+.Portfolio { background-color: rgb(255,196,196);
+	padding-left:11em;
+}
+.Where-i-am { background-color: rgb(249,255,196);
+	padding-left:10.5em;
+}
+.e-mail { background-color: rgb(198,255,196);
+	padding-left:16em;
+}
+	
+	.portrait{width:200px;
+	margin-left:-100px;
+	margin-top:-250px}
+	
+	body{width:100%;
+	padding: 0em;
+	margin: 0;}
+	
+	
+	h1{font-size:3em;
+	margin:0;
+	padding:0;}
+	
+	p{font-size: 1em;
+	width: 100%;
+	margin:0;
+	padding-top:}
+	
+	h1, p {margin-left: -70px;
+	width: 170%}
+	
+	h3{font-size: 2em}
+	
+	.me blockquote p {float:none;
+	position: relative;
+	width:170%;
+	top: 0.6em;
+	font-size:2em;
+	text-align: center}
+	
+	.me hr{width: 160%;
+	margin-left: -60px;
+	padding-bottom: 1.5em}
+	
+	.container {width:180%;
+		padding: 0 2em;
+		margin-left: -60px;
+	
+	}
+	.container h1, .container hr{margin-left: -40px}
+	.container hr{width: 100%
+	}
+	.photo-container{ width: 100%;
+	margin-left: -40px}
+}
+
+
+
+
+
