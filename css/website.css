@@ -117,12 +117,102 @@ width: auto;}
 -moz-transition: all .2s ease-in-out;      
 -o-transition: all .2s ease-in-out;
 opacity: 1}
-.n-ireland{width: 60%;
-margin: 0 auto;}
-
-
+.n-ireland{;
+	margin-top: -70em;
+	transform:scale(0.5);}
+.n-ireland img{width: ;}
+.n-ireland img:hover {transform: scale(1.1) }
+.derry{position: relative;
+	left:10em;
+	top:85.2em;
 }
-/*-----------------colours-----------*/
+.antrim{position: relative;
+	right:-37.4em;
+top: 47.1em}
+.down{position: relative;
+	top: 34.1em;
+left:45.02em;}
+.armagh{position: relative;
+	right: 7em;
+top:33em}
+.tyrone{position: relative;
+	right:7.7em;
+top: -21.7em;}
+.fermanagh{position: relative;
+	right:17em;
+top: -40.5em;}
+.loughneigh{position: relative;
+	right:-1em;
+top: -64em;}
+
+@media (min-width: 1084px) {.n-ireland{margin-left: -0em}
+	.derry{right:7.7em;
+top: 80em;}
+.tyrone{position: relative;
+	right:7.7em;
+top: -60.2em;}
+	.antrim{right:-37em;
+top: 42em;}	.fermanagh{top:-78.7em;}
+	.loughneigh{top:-97em;
+	left:-.2em;}
+	.armagh{top:-5.3em;
+	left:28.4em;}
+	.down{top:28.9em}
+	.loughneigh{top:-103.5em;
+	left:0em;}
+}
+
+
+@media (min-width: 801px) and (max-width: 1083px)
+{.n-ireland{margin-left: 2em}
+	.derry{position: relative;
+	left:-5em;
+	top:85.2em;
+}
+.antrim{position: relative;
+	left:22.4em;
+top: 47.1em}
+.down{position: relative;
+	top: 34em;
+left:30.02em;}
+.armagh{position: relative;
+	left:13.4em;
+top:-0.1em}
+.tyrone{position: relative;
+	right:22.7em;
+top: -55.2em;}
+.fermanagh{position: relative;
+	right:32em;
+top: -73.7em;}
+.loughneigh{position: relative;
+	right:-23em;
+	top: -116em;}}
+	
+@media (min-width: 0px) and (max-width: 800px)
+
+{.n-ireland{margin-top:-99em;
+	margin-left: -13em}
+	.n-ireland img:hover{transform: scale(0.35)}
+	.derry{transform: scale(0.3);}
+	.antrim{transform: scale(0.3);
+	left:18.4em;
+	top:45.1em}
+	.down{transform: scale(0.3);
+	top:10.5em;
+	left:20em}
+	.armagh{transform: scale(0.3);
+	top:-25.5em;
+	left:19.4em;}
+	.tyrone{transform: scale(0.3);
+	right:2em;
+top:-67.4em;}
+	.fermanagh{transform: scale(0.3);
+	top:-97.2em;
+	left:0.7em;}
+	.loughneigh{transform: scale(0.3);
+	top:-126.3em;
+	left:25.6em;}}
+----colours-----------*/
 
 article{width:100%;
 display: block;
