@@ -124,10 +124,10 @@ opacity: 1;
 
 /*-----noethere ireland-----*/
 
-.n-ireland{;
-	margin-top: -85em;
-	transform:scale(0.5);}
-
+.n-ireland{ display: block;
+	float: inherit
+	em;
+transform: scale(0.4);}
 .n-ireland img{ opacity: 0.8}
 .n-ireland .loughneigh{ opacity: 1;
 z-index: 100}
@@ -138,7 +138,7 @@ z-index: 100}
 	left:10em;
 	top:85.2em;
 }
-.antrim{position: relative;
+.antrim{position:relative;
 	right:-37.4em;
 top: 47.1em}
 .down{position: relative;
@@ -158,7 +158,7 @@ top: -40.5em;}
 top: -64em;}
 
 
-@media (min-width: 801px) and (max-width: 1083px)
+/*@media (min-width: 801px) and (max-width: 1083px)
 {.n-ireland{margin-top:-96em;margin-left: 2em}
 	.derry{position: relative;
 	left:-5em;
@@ -181,7 +181,8 @@ top: -55.2em;}
 top: -73.7em;}
 .loughneigh{position: relative;
 	right:-23em;
-	top: -116em;}}
+	top: -116em;}
+}
 	
 @media (min-width: 0px) and (max-width: 800px)
 
@@ -208,7 +209,7 @@ top:-67.4em;}
 	top:-126.3em;
 	left:25.6em;}
 }
-
+*/
 
 /*----colours-----------*/
 
