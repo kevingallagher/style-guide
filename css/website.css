@@ -125,8 +125,7 @@ opacity: 1;
 /*-----noethere ireland-----*/
 
 .n-ireland{ display: block;
-	float: inherit
-	em;
+	float: inherit;
 transform: scale(0.4);}
 .n-ireland img{ opacity: 0.8}
 .n-ireland .loughneigh{ opacity: 1;
@@ -136,26 +135,26 @@ opacity: 1;
 z-index: 100}
 .derry{position: relative;
 	left:10em;
-	top:85.2em;
+	top:5.2em;
 }
 .antrim{position:relative;
 	right:-37.4em;
-top: 47.1em}
+top: -32.9em}
 .down{position: relative;
-	top: 34.1em;
+	top: -45.9em;
 left:45.02em;}
 .armagh{position: relative;
 	right: 7em;
-top:33em}
+top:-47em}
 .tyrone{position: relative;
 	right:7.7em;
-top: -21.7em;}
+top: -101.7em;}
 .fermanagh{position: relative;
 	right:17em;
-top: -40.5em;}
+top: -120.5em;}
 .loughneigh{position: relative;
 	right:-1em;
-top: -64em;}
+top: -144em;}
 
 
 /*@media (min-width: 801px) and (max-width: 1083px)
