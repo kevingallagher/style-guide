@@ -109,19 +109,31 @@ top:0;
   left: 50%;
   margin-top: -340px;
 	margin-left: -160px;
-width: auto;}
+width: auto;
+	
+}
 
 .portrait:hover{transform: scale(1.02);
-	transition: all .2s ease-in-out;
+	transition: all .3s ease-in-out;
     -webkit-transform: scale 1.05 ;   
--moz-transition: all .2s ease-in-out;      
--o-transition: all .2s ease-in-out;
-opacity: 1}
+-moz-transition: all .3s ease-in-out;      
+-o-transition: all .3s ease-in-out;
+opacity: 1;
+-webkit-filter: drop-shadow(0 0 5px grey)
+}
+
+/*-----noethere ireland-----*/
+
 .n-ireland{;
-	margin-top: -70em;
+	margin-top: -85em;
 	transform:scale(0.5);}
-.n-ireland img{width: ;}
-.n-ireland img:hover {transform: scale(1.1) }
+
+.n-ireland img{ opacity: 0.8}
+.n-ireland .loughneigh{ opacity: 1;
+z-index: 100}
+.n-ireland img:hover {transform: scale(1.01);
+opacity: 1;
+z-index: 100}
 .derry{position: relative;
 	left:10em;
 	top:85.2em;
@@ -145,26 +157,9 @@ top: -40.5em;}
 	right:-1em;
 top: -64em;}
 
-@media (min-width: 1084px) {.n-ireland{margin-left: -0em}
-	.derry{right:7.7em;
-top: 80em;}
-.tyrone{position: relative;
-	right:7.7em;
-top: -60.2em;}
-	.antrim{right:-37em;
-top: 42em;}	.fermanagh{top:-78.7em;}
-	.loughneigh{top:-97em;
-	left:-.2em;}
-	.armagh{top:-5.3em;
-	left:28.4em;}
-	.down{top:28.9em}
-	.loughneigh{top:-103.5em;
-	left:0em;}
-}
-
 
 @media (min-width: 801px) and (max-width: 1083px)
-{.n-ireland{margin-left: 2em}
+{.n-ireland{margin-top:-96em;margin-left: 2em}
 	.derry{position: relative;
 	left:-5em;
 	top:85.2em;
@@ -190,7 +185,7 @@ top: -73.7em;}
 	
 @media (min-width: 0px) and (max-width: 800px)
 
-{.n-ireland{margin-top:-99em;
+{.n-ireland{margin-top:-107em;
 	margin-left: -13em}
 	.n-ireland img:hover{transform: scale(0.35)}
 	.derry{transform: scale(0.3);}
@@ -211,8 +206,11 @@ top:-67.4em;}
 	left:0.7em;}
 	.loughneigh{transform: scale(0.3);
 	top:-126.3em;
-	left:25.6em;}}
-----colours-----------*/
+	left:25.6em;}
+}
+
+
+/*----colours-----------*/
 
 article{width:100%;
 display: block;
@@ -247,7 +245,7 @@ padding:}
 h1{
 	font-family: 'signpainter', sans-serif;
     color: black;
- font-size:4em;
+ font-size:3em;
 line-height: 1.5em}
 
 
@@ -320,15 +318,20 @@ blockquote cite { font-family:'Lantinghei SC';
   -o-transition: all .5s ease-out;
 	transition: all .5s ease-out;
 }
+.location p{margin:auto;
+	margin-top: -40em;
+	width:60%;
+}
   /*------------GALLERY-----------*/
 h3 {font-family:  Lantinghei SC;
-	font-size: 2em;
+	font-size: 1.6em;
 	line-height: 1.25em;
 	margin-top: .85em;
 	margin-bottom: .5em;
 	color: rgb(255,196,196);
 	padding: .5em;
 	text-align: center;
+	
 }
 .main-header {
 	text-align: center;
@@ -385,7 +388,7 @@ background-color:rgb(255,196,196) }
 .photo-overlay:hover {
 	opacity:1;}
 }
-
+.photo-overlay:hover h3{ opacity: 1;}
 
      /*gallery media queries*/
 
@@ -445,7 +448,7 @@ article {
 	margin:0;
 	padding:0;}
 	
-	p{font-size: 1em;
+	p{font-size: 1.5em;
 	width: 100%;
 	margin:0;
 	padding:1.5em 2em 1,5em 2em;}
@@ -463,7 +466,7 @@ article {
 	font-size:2em;
 	text-align: center}
 
-
+}
 @media (max-width: 30em) {
     
     body {
@@ -483,11 +486,9 @@ article {
 	padding: .6em 0 .6em 0;
 	}
 	.About-me { 
-	padding-left:9em
-	
-;
-	
+	padding-left:9em;	
 }
+	
 .Blog { background-color: rgb(181,185,249);
 	padding-left:16.4em;
 }
@@ -545,4 +546,10 @@ article {
 	}
 	.photo-container{ width: 100%;
 	margin-left: -40px}
+	
+	.location p{margin:auto;
+	margin-top: -120em;
+	width:100%;
+}
+
 }
