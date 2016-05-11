@@ -359,8 +359,22 @@ background-color:rgb(255,196,196) }
 	opacity:1;}
 }
 .photo-overlay:hover h3{ opacity: 1;}
+  /*--------------contact-------------*/
 
-     /*gallery media queries*/
+.contact {
+max-width:960px;
+text-align:center;
+}
+
+.social{
+position:relative;
+display: inline-block;
+float:left;
+padding:10px;
+}
+
+
+     /*--------gallery media queries---------*/
 
 
 @media (min-width: 0) and (max-width: 768px) {
@@ -453,10 +467,12 @@ article {
     } 
 	
 	
-	nav ul li{font-size: 0.6em;
-	padding: .6em 0 .6em 0;
+	nav ul li { color:;
+		font-size: 0.6em;
+	padding: .6em 0 .6em 0
+		;
 	}
-
+	nav a{opacity: 0}
 nav2 { position: fixed; 
     top: 0;
     left:0;
@@ -481,10 +497,11 @@ nav2 ul li {
     display: inline;
    padding: .25em
     }
-	.fixed-me{padding: 1em}
-	.fixed-portfolio{padding: 1em;
+	.fixed-me{padding:em}
+	.fixed-portfolio{;
+		
 	}
-	
+	nav2 img{transform: scale(0.6)}
 	.About-me { 
 	padding-left:9em;
 		
