@@ -81,13 +81,27 @@ nav ul{ font-family: 'signpainter', sans-serif;
              letter-spacing: 1px;
 	opacity: 1;}
 
+/*-------fixed nav------------*/
 
-.About-me { background-color: rgb(196,255,243)  ;
-	padding-left:6em
-	
-;
-	
+nav2 {position: fixed;
+	top: 4em;
+	right:3em;
+	transform: scale(1.2);
+	z-index: 100;
 }
+nav2 a{opacity: 1;
+}
+nav2 ul li{padding-top: 1.5em;
+padding-bottom: 2em;
+list-style-type: none;}
+.fixed-me{margin-left: .2em}
+.fixed-blog{margin-left: 0.6em}
+.fixed-e-mail{margin-left: .5em}
+.About-me { background-color: rgb(196,255,243)  ;
+	padding-left:6em	
+}
+
+nav2 ul li:hover {transform: scale(1.1)}
 .Blog { background-color: rgb(181,185,249);
 	padding-left:9.8em;
 }
@@ -124,91 +138,46 @@ opacity: 1;
 
 /*-----noethere ireland-----*/
 
-.n-ireland{ display: block;
+.n-ireland{margin-top: -53em;
+	margin-bottom:-100em ;
+	display: block;
 	float: inherit;
-transform: scale(0.4);}
-.n-ireland img{ opacity: 0.8}
-.n-ireland .loughneigh{ opacity: 1;
+transform: scale(0.4);
+ width: 1000px;
+}
+.n-ireland a { opacity:1 ;
+width 140%;}
+.n-ireland img{opacity: 0.8;
+margin-left: em;
+width: 100}
+.n-ireland a .loughneigh{ opacity: 1;
 z-index: 100}
-.n-ireland img:hover {transform: scale(1.01);
+.n-ireland  img:hover {transform: scale(1.1);
 opacity: 1;
 z-index: 100}
 .derry{position: relative;
-	left:10em;
-	top:5.2em;
+	left:0em;
+	top:em;
 }
-.antrim{position:relative;
-	right:-37.4em;
-top: -32.9em}
-.down{position: relative;
-	top: -45.9em;
-left:45.02em;}
+ .antrim{position:relative;
+	right:-14em;
+top: -19em}
+ .down{position: relative;
+	top: -25.5em;
+left:17.5em;}
 .armagh{position: relative;
-	right: 7em;
-top:-47em}
+	right: 8.6em;
+top:-25.8em}
 .tyrone{position: relative;
-	right:7.7em;
-top: -101.7em;}
-.fermanagh{position: relative;
-	right:17em;
-top: -120.5em;}
-.loughneigh{position: relative;
-	right:-1em;
-top: -144em;}
+	right:8.7em;
+top: -53.9em;}
+ .fermanagh{position: relative;
+	right:13.3em;
+top: -63.3em}
+ .loughneigh{position: relative;
+	right:4.5em;
+top: -74.9em;}
 
-
-/*@media (min-width: 801px) and (max-width: 1083px)
-{.n-ireland{margin-top:-96em;margin-left: 2em}
-	.derry{position: relative;
-	left:-5em;
-	top:85.2em;
-}
-.antrim{position: relative;
-	left:22.4em;
-top: 47.1em}
-.down{position: relative;
-	top: 34em;
-left:30.02em;}
-.armagh{position: relative;
-	left:13.4em;
-top:-0.1em}
-.tyrone{position: relative;
-	right:22.7em;
-top: -55.2em;}
-.fermanagh{position: relative;
-	right:32em;
-top: -73.7em;}
-.loughneigh{position: relative;
-	right:-23em;
-	top: -116em;}
-}
-	
-@media (min-width: 0px) and (max-width: 800px)
-
-{.n-ireland{margin-top:-107em;
-	margin-left: -13em}
-	.n-ireland img:hover{transform: scale(0.35)}
-	.derry{transform: scale(0.3);}
-	.antrim{transform: scale(0.3);
-	left:18.4em;
-	top:45.1em}
-	.down{transform: scale(0.3);
-	top:10.5em;
-	left:20em}
-	.armagh{transform: scale(0.3);
-	top:-25.5em;
-	left:19.4em;}
-	.tyrone{transform: scale(0.3);
-	right:2em;
-top:-67.4em;}
-	.fermanagh{transform: scale(0.3);
-	top:-97.2em;
-	left:0.7em;}
-	.loughneigh{transform: scale(0.3);
-	top:-126.3em;
-	left:25.6em;}
-}
-*/
 
 /*----colours-----------*/
 
@@ -319,8 +288,9 @@ blockquote cite { font-family:'Lantinghei SC';
 	transition: all .5s ease-out;
 }
 .location p{margin:auto;
-	margin-top: -40em;
-	width:60%;
+	margin-top: 2em;
+	padding:2em;
+	width:80%;
 }
   /*------------GALLERY-----------*/
 h3 {font-family:  Lantinghei SC;
@@ -338,9 +308,9 @@ h3 {font-family:  Lantinghei SC;
 	padding: 2.8em 0;
 }
 .container {
-	width: 94.02985075%;
+	width: 100%;
 	max-width: 1260px;
-	margin: auto;}
+	margin: 0 auto;}
 
 .photo-container{margin-top: 2em;
 background-color:rgb(255,196,196) }
@@ -414,6 +384,7 @@ background-color:rgb(255,196,196) }
 		margin-left: 0;
 		clear: left;
 	}
+	.n-ireland{margin-left: -100px}
 }
 @media (min-width: 1025px) { 
 	.photo-container {
@@ -465,6 +436,7 @@ article {
 	top: 0.6em;
 	font-size:2em;
 	text-align: center}
+	.n-ireland{margin-left: -260px}
 
 }
 @media (max-width: 30em) {
@@ -477,16 +449,45 @@ article {
 article {
     width: 100%;
     padding: 0em;
-	margin-top:32em;
+	margin-top:35em;
     } 
 	
-	nav{top:-11em;}
 	
 	nav ul li{font-size: 0.6em;
 	padding: .6em 0 .6em 0;
 	}
+
+nav2 { position: fixed; 
+    top: 0;
+    left:0;
+    width:100%;
+	background-color: rgba(255,255,255,0.7)
+     
+    
+      }
+   
+        
+nav2 ul{ font-family: ubuntu;
+    font-size: 1em;
+             text-align: center;
+             text-transform: uppercase;
+    
+             letter-spacing: 1px;
+   
+       }
+
+nav2 ul li {
+    
+    display: inline;
+   padding: .25em
+    }
+	.fixed-me{padding: 1em}
+	.fixed-portfolio{padding: 1em;
+	}
+	
 	.About-me { 
-	padding-left:9em;	
+	padding-left:9em;
+		
 }
 	
 .Blog { background-color: rgb(181,185,249);
@@ -504,7 +505,7 @@ article {
 	
 	.portrait{width:200px;
 	margin-left:-100px;
-	margin-top:-250px}
+	margin-top:-200px}
 	
 	body{width:100%;
 	padding: 0em;
@@ -548,8 +549,23 @@ article {
 	margin-left: -40px}
 	
 	.location p{margin:auto;
-	margin-top: -120em;
-	width:100%;
+	margin-left:-30px;
+		padding:0em;
+		width:150%;}
+	.n-ireland{margin-left: -360px}
+	.n-ireland img{transform: scale(0.7)}
+	.n-ireland img:hover{transform: scale(0.7)}
+	.antrim{left:9.7em;
+	top:-19.6em;}
+	.tyrone{top:-56.4em;
+		left:-7.6em ;}
+	.armagh{top:-31.5em;
+	left:-10.4em;}
+	.fermanagh{top:-68.2em;
+	left: -9.7em}
+	.down{left:12em;
+	top: -30.8em}
+	
 }
 
 }
