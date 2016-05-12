@@ -220,13 +220,13 @@ line-height: 1.5em}
 
 p{font-family: Lantinghei SC;
     color: back;
+	background-color: rgba(255, 255, 255,0.2);
     
     padding: 2em,1em,2em,1em;
     margin: 1.5em 1.5em 1.5em -0.1em;
  font-size:1.5em;
 line-height: 1.5em;
 	width: 55%;
-	: 
 	padding:2em;
 position: static;
 	left: auto;
@@ -253,8 +253,9 @@ blockquote p { font-family:'signpainter';
     background-color: rgb(249,255,196);
     hanging-punctuation: first;
             text-indent: -0.5em;
-	
-	text-shadow: 15;
+-webkit-box-shadow: 6px 1px 28px 0px rgba(111,169,179,1);
+-moz-box-shadow: 6px 1px 28px 0px rgba(111,169,179,1);
+box-shadow: 6px 1px 28px 0px rgba(111,169,179,1);
 	
 	
 		width: 30%;
@@ -537,7 +538,10 @@ nav2 ul li {
 	p{font-size: 1em;
 	width: 100%;
 	margin:0;
-	padding-top:}
+		background-color: rgba(255,255,255,0.2)
+			;
+		padding: 1em;
+	}
 	
 	h1, p {margin-left: -70px;
 	width: 170%}
