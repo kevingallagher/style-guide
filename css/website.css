@@ -293,8 +293,8 @@ blockquote cite { font-family:'Lantinghei SC';
 	width:80%;
 }
   /*------------GALLERY-----------*/
-h3 {font-family:  Lantinghei SC;
-	font-size: 1.6em;
+a h3 {font-family:  Lantinghei SC;
+	font-size: .8em;
 	line-height: 1.25em;
 	margin-top: .85em;
 	margin-bottom: .5em;
@@ -349,6 +349,7 @@ background-color:rgb(255,196,196) }
 	content: " ";
 	display: table;
 	clear: both;}
+
 /*----Overlay Transitions---- */
 
 .photo-overlay {opacity: 0;
@@ -442,7 +443,7 @@ article {
 		70px;
 	width: 100%}
 	
-	h3{font-size: 1.7em}
+	a h3{font-size: 1em}
 	
 	.me blockquote p {float:none;
 	position: relative;
@@ -477,7 +478,7 @@ nav2 { position: fixed;
     top: 0;
     left:0;
     width:100%;
-	background-color: rgba(255,255,255,0.7)
+	background-color: rgba(244, 243,215,100)
      
     
       }
@@ -498,10 +499,10 @@ nav2 ul li {
    padding: .25em
     }
 	.fixed-me{padding:em}
-	.fixed-portfolio{;
-		
-	}
-	nav2 img{transform: scale(0.6)}
+	.fixed-portfolio{}
+	.fixed-blog{}
+	.fixed-e-mail{top: }		
+	nav2 img{transform: scale(0.7)}
 	.About-me { 
 	padding-left:9em;
 		
@@ -541,7 +542,7 @@ nav2 ul li {
 	h1, p {margin-left: -70px;
 	width: 170%}
 	
-	h3{font-size: 2em}
+	a h3{font-size: 1em}
 	
 	.me blockquote p {float:none;
 	position: relative;
@@ -583,6 +584,5 @@ nav2 ul li {
 	.down{left:12em;
 	top: -30.8em}
 	
-}
 
 }
