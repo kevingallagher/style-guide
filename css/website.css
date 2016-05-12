@@ -15,13 +15,14 @@ body { font-family: 'Libre Baskerville', serif, Georgia, Times,'Times New Roman'
 
 body{background:rgba(244, 243,215,100)  ;
      ;
-    width: 100%;
+    width: 90%;
 height: auto;
-overflow-x: hidden;}
+overflow-x: hidden;
+margin: 0 auto}
 
 
                   
-article {  width: 100%;
+article {  width: 90%;
     margin: 0 auto;
  background-color: /*rgb(196,255,243); 
     padding: 2em 14em 2em 14em;
@@ -88,8 +89,9 @@ nav2 {position: fixed;
 	right:3em;
 	transform: scale(1.2);
 	z-index: 100;
+	
 }
-nav2 a{opacity: 1;
+nav2 a{opacity: 0;
 }
 nav2 ul li{padding-top: 1.5em;
 padding-bottom: 2em;
@@ -475,12 +477,14 @@ article {
 		;
 	}
 	nav a{opacity: 0}
+	nav2 a{opacity: 1;
+}
 nav2 { position: fixed; 
     top: 0;
     left:0;
     width:100%;
-	background-color: rgba(244, 243,215,100)
-     
+	background-color: rgba(244, 243,215,100);
+	
     
       }
    

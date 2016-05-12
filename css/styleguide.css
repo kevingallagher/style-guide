@@ -1,0 +1,253 @@
+/*-------------cssreset--------------*/
+
+*{
+padding:0;
+margin: 0;
+font-family:100%;
+line-height:1em;
+	box-sizing: border-box;
+}
+
+
+body { font-family: 'Libre Baskerville', serif, Georgia, Times,'Times New Roman'; 
+    color: #666666; } 
+   
+
+body{background:rgba(244, 243,215,100)  ;
+     ;
+    width: 90%;
+height: auto;
+overflow-x: hidden;
+margin: 0 auto}
+                  
+article {  width: 90%;}
+
+.colourscheme{margin-top: 75em;
+}
+.colourscheme ul li{display: inline-block;
+padding: 2em;
+margin-left: 2.5em}
+.icons ul li{display: inline-block;
+padding: 4em;
+margin-left: 1.5em;
+opacity: 0.8}
+.icons ul li:hover {transform: scale(1.1);
+opacity: 1;}
+/*--------------links-----------------*/
+a {
+    color: rgb(89, 89, 89);
+    text-shadow: 0.7;
+    font-size: 2em;
+    text-decoration: none;
+    text-transform: none;
+    letter-spacing: 1px;
+    opacity: 0.8;
+ }
+a:hover { color: rgb(154, 154, 154);
+border-bottom: none;
+    
+    -webkit-transition: all .5s ease-in-out;
+  -moz-transition: all .5s ease-in-out;
+  -o-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+    ;
+}      
+
+h1{
+	font-family: 'signpainter', sans-serif;
+    color: black;
+ font-size:3em;
+line-height: 1.5em}
+
+
+p{font-family: Lantinghei SC;
+    color: back;
+	background-color: rgba(255, 255, 255,0.2);
+    
+    padding: 2em,1em,2em,1em;
+    margin: 1.5em 1.5em 1.5em -0.1em;
+ font-size:1.5em;
+line-height: 1.5em;
+	width: 55%;
+	padding:2em;
+position: static;
+	left: auto;
+}
+
+          
+hr{
+	color: rgb(181,185,249);
+border-bottom: none;
+border-left: none;
+	border-right: none;
+width: 100%}    
+/*--------------nav-----------------*/
+nav {width: 200%;
+	float: left;
+	margin:0em; 
+	border-top: 0px solid #666666;
+    border-bottom: 0px solid #666666;
+ position: absolute; 
+    top: 10em;
+    left:0;
+    -webkit-transform: rotate(25deg);
+  -moz-transform: rotate(25deg);
+  -ms-transform: rotate(25deg);
+  -o-transform: rotate(25deg);
+  transform: rotate(25deg);
+	margin-left: -11.5em;
+	margin-top: 40em;
+  
+}
+
+nav ul{ font-family: 'signpainter', sans-serif;
+    list-style-type: none;
+    font-size: 1.5em;
+             text-align: left;
+             text-transform: none;
+             letter-spacing: 1px;
+	opacity: 1;}
+.About-me { background-color: rgb(196,255,243)  ;
+	padding-left:6em	
+}
+.Blog { background-color: rgb(181,185,249);
+	padding-left:9.8em;
+}
+.Portfolio { background-color: rgb(255,196,196);
+	padding-left:8em;
+}
+.Where-i-am { background-color: rgb(249,255,196);
+	padding-left:7em;
+}
+.e-mail { background-color: rgb(198,255,196);
+	padding-left:10.3em;
+}
+.portrait{ position: absolute;
+top:0;
+	z-index: 100;/* this brings image infront of nav*/
+  top: 50%;
+  left: 50%;
+  margin-top: -30px;
+	margin-left: -160px;
+width: auto;
+	
+}
+
+
+.portrait:hover{transform: scale(1.02);
+	transition: all .3s ease-in-out;
+    -webkit-transform: scale 1.05 ;   
+-moz-transition: all .3s ease-in-out;      
+-o-transition: all .3s ease-in-out;
+opacity: 1;
+-webkit-filter: drop-shadow(0 0 5px grey)
+}
+
+
+/*------------GALLERY-----------*/
+a h3 {font-family:  Lantinghei SC;
+	font-size: .8em;
+	line-height: 1.25em;
+	margin-top: .85em;
+	margin-bottom: .5em;
+	color: rgb(255,196,196);
+	padding: .5em;
+	text-align: center;
+	
+}
+.main-header {
+	text-align: center;
+	padding: 2.8em 0;
+}
+.container {
+	width: 100%;
+	max-width: 1260px;
+	margin: 0 auto;}
+
+.photo-container{margin-top: 2em;
+background-color:rgb(255,196,196) }
+.photo {
+	position: relative;
+	line-height: 0;
+	margin-bottom: 2em;
+	overflow:hidden;
+}
+.photo-container img {
+ 	width: 100%;
+}
+
+
+/* ---- Photo Overlay ---- */
+.photo-overlay {
+	color: #fff;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0; 
+	left: 0;
+	padding-left: 20px;
+	padding-right: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background: rgba(0,0,0, .65);
+	
+}
+
+/* ---- Float clearfix ---- */
+
+.clearfix::after {
+	content: " ";
+	display: table;
+	clear: both;}
+
+/*----Overlay Transitions---- */
+
+.photo-overlay {opacity: 0;
+	transition-property: opacity;
+		transition-duration:0.5s;
+}
+.photo-overlay:hover {
+	opacity:1;}
+}
+.photo-overlay:hover h3{ opacity: 1;}
+
+
+     /*--------gallery media queries---------*/
+
+
+@media (min-width: 0) and (max-width: 768px) {
+	.container {
+		padding: 0 1.225em .5em;
+	}
+	
+}
+@media (min-width: 769px) {
+	.container {
+		padding:  2.25em 4em;
+	}
+	.photo-container {
+		width: 48%;
+		float: left;
+		margin-left: 4%;
+	}
+}
+@media (min-width: 769px) and (max-width: 1024px) { 
+	.photo-container:nth-child(2n) {
+		margin-left: 0;
+		clear: left;
+	}
+	.n-ireland{margin-left: -100px}
+}
+@media (min-width: 1025px) { 
+	.photo-container {
+		width: 30.63973064%;
+	}
+	.photo-container:nth-child(3n+2) {
+		margin-left: 0;
+		clear: left;
+	}
+}
+
+
