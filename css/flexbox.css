@@ -1,0 +1,44 @@
+ 
+ body
+ {
+ font-family: 'Open Sans', sans-serif;
+ color:#FFFFFF;
+ }
+ 
+ .house {
+ background:#FF5651;
+/*	 min-height:1200px;*/
+ display:flex;
+ /*justify-content:space-around;
+ align-items:baseline;
+	 flex-wrap:wrap;
+	 align-content: space-around;*/
+ }
+ 
+ .room {
+ background:#00AAF2;
+ /*width:180px;*/
+ height:90px;
+ /*font-size:1.5em;*/
+	 flex: 2 1 0;
+ }
+ 
+ .kitchen {
+ /*width:450px;*/
+ height:300px;
+ /*font-size:4.5em;*/
+	 flex-grow: 2;
+ }
+ 
+ .washroom {
+ /*width:120px;*/
+ height:60px;
+ /*font-size:0.6em;*/
+	order: 2;
+	 align-self: flex-end;
+}
+
+.bedroom{
+	order: 3;
+
+}
